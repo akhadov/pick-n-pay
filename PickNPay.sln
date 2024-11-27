@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2679E34A-0C75-463F-9507-DC8B9C543585}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{255E031F-C744-4134-84BE-27012E8F67D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickNPay.Api", "src\PickNPay.Api\PickNPay.Api.csproj", "{CF75E5CD-3977-4006-9532-D126E9853159}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickNPay.Domain", "src\PickNPay.Domain\PickNPay.Domain.csproj", "{7E3C2345-E5BE-45B6-BBFB-9F541C0DB388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickNPay.Application", "src\PickNPay.Application\PickNPay.Application.csproj", "{C2155F72-65BA-4B81-9469-C8DEFAAC64AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickNPay.Infrastructure", "src\PickNPay.Infrastructure\PickNPay.Infrastructure.csproj", "{B6462174-15FB-4AEF-BDAC-E3C50808F91D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickNPay.SharedKernel", "src\PickNPay.SharedKernel\PickNPay.SharedKernel.csproj", "{6522B071-A494-44E9-ADE8-A8D93D7D5ADB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF75E5CD-3977-4006-9532-D126E9853159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF75E5CD-3977-4006-9532-D126E9853159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF75E5CD-3977-4006-9532-D126E9853159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF75E5CD-3977-4006-9532-D126E9853159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E3C2345-E5BE-45B6-BBFB-9F541C0DB388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E3C2345-E5BE-45B6-BBFB-9F541C0DB388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E3C2345-E5BE-45B6-BBFB-9F541C0DB388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E3C2345-E5BE-45B6-BBFB-9F541C0DB388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2155F72-65BA-4B81-9469-C8DEFAAC64AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2155F72-65BA-4B81-9469-C8DEFAAC64AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2155F72-65BA-4B81-9469-C8DEFAAC64AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2155F72-65BA-4B81-9469-C8DEFAAC64AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6462174-15FB-4AEF-BDAC-E3C50808F91D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6462174-15FB-4AEF-BDAC-E3C50808F91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6462174-15FB-4AEF-BDAC-E3C50808F91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6462174-15FB-4AEF-BDAC-E3C50808F91D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6522B071-A494-44E9-ADE8-A8D93D7D5ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6522B071-A494-44E9-ADE8-A8D93D7D5ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6522B071-A494-44E9-ADE8-A8D93D7D5ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6522B071-A494-44E9-ADE8-A8D93D7D5ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF75E5CD-3977-4006-9532-D126E9853159} = {255E031F-C744-4134-84BE-27012E8F67D4}
+		{7E3C2345-E5BE-45B6-BBFB-9F541C0DB388} = {255E031F-C744-4134-84BE-27012E8F67D4}
+		{C2155F72-65BA-4B81-9469-C8DEFAAC64AC} = {255E031F-C744-4134-84BE-27012E8F67D4}
+		{B6462174-15FB-4AEF-BDAC-E3C50808F91D} = {255E031F-C744-4134-84BE-27012E8F67D4}
+		{6522B071-A494-44E9-ADE8-A8D93D7D5ADB} = {255E031F-C744-4134-84BE-27012E8F67D4}
+	EndGlobalSection
+EndGlobal
